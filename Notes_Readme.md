@@ -18,7 +18,15 @@ Converted 04_functions.ipynb.
 Converted 05_guess_the_number.ipynb.
 Converted index.ipynb.
 
+Following this tutorial I finally found how to enable the Sidebar in settings.ini
 
+
+nbdev tutorial
+
+From <https://www.youtube.com/watch?v=Hrs7iEYmRmg> 
+
+# Set to True if you want to create a more fancy sidebar.json than the default
+custom_sidebar = True
 
 04_07_2021
 -------------------------------
