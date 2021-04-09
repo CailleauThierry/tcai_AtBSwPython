@@ -1,3 +1,25 @@
+04_09_2021
+-------------------------------
+I got lost for a while, switch to a previously commit point to see if it used to work better
+
+
+Then I started watching this video:
+https://www.youtube-nocookie.com/embed/G-7J9dU7QHo?autoplay=1&iv_load_policy=3&loop=1&modestbranding=1&playlist=G-7J9dU7QHo
+
+tcailleau@TCAILLEAU-02 MINGW64 ~/Documents/Python/tcai_AtBSwPython (master)
+$ ls
+00_core.ipynb       05_guess_the_number.ipynb  docker-compose.yml  index.ipynb  Makefile     Notes_Readme.md  settings.ini  tcai_AtBSwPython/
+04_functions.ipynb  CONTRIBUTING.md            docs/               LICENSE      MANIFEST.in  README.md        setup.py
+
+tcailleau@TCAILLEAU-02 MINGW64 ~/Documents/Python/tcai_AtBSwPython (master)
+$ nbdev_build_lib
+Converted 00_core.ipynb.
+Converted 04_functions.ipynb.
+Converted 05_guess_the_number.ipynb.
+Converted index.ipynb.
+
+
+
 04_07_2021
 -------------------------------
 Trying to reproduce what I learn from following this YouTube Tutorial for nbdev...:
