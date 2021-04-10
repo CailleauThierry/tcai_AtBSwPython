@@ -2,7 +2,8 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"name": "05_guess_the_number.ipynb",
+index = {"display_fraction": "04_functions.ipynb",
+         "name": "05_guess_the_number.ipynb",
          "secretNumber": "05_guess_the_number.ipynb"}
 
 modules = ["functions.py",

@@ -1,3 +1,34 @@
+
+04_11_2021 <always following 'https://nbdev.fast.ai/tutorial.html'>
+-----------------------------------------------------------------------------------------------------------
+Getting "StdinNotImplementedError" > Implementing
+ From <https://stackoverflow.com/questions/53910646/input-functionality-is-not-working-with-python-in-vscode>  > that did not work > I will have to wait for this to be fixed
+
+Ctrl + Shift + D
+Environment -> Python This creates launch.json file within a .vscode directory in the current directory
+Paste the following json:
+{
+"version": "0.2.0",
+"configurations": [
+    {
+        "name": "Python",
+        "type": "python",
+        "request": "launch",
+        "stopOnEntry": true,
+        "pythonPath": "${config.python.pythonPath}",
+        "program": "${file}",
+        "debugOptions": [
+            "WaitOnAbnormalExit",
+            "WaitOnNormalExit",
+            "RedirectOutput"
+        ],
+        "console": "integratedTerminal"
+    }
+]}
+Save the file and open python script in the editor Start without debugging
+
+
+
 04_09_2021
 -------------------------------
 I got lost for a while, switch to a previously commit point to see if it used to work better
