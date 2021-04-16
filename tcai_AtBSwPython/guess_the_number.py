@@ -27,7 +27,7 @@ for guessesTaken in range (1, 7):
         break
 
 if guessedNumber == secretNumber:
-    print(f"Good job, {name}! You guessed my number in {str(guessesTaken)} guesses!")
+    print(f"Good job, {name}! You guessed my number in {str(guessesTaken)} guess(es)!")
 else:
     print("Nope " + name + " the number I was thinking of was " + str(secretNumber) + "!")
 

@@ -4,10 +4,12 @@ __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
 index = {"display_fraction": "04_functions.ipynb",
          "name": "05_guess_the_number.ipynb",
-         "secretNumber": "05_guess_the_number.ipynb"}
+         "secretNumber": "05_guess_the_number.ipynb",
+         "spam": "06_lists.ipynb"}
 
 modules = ["functions.py",
-           "guess_the_number.py"]
+           "guess_the_number.py",
+           "lists.py"]
 
 doc_url = "https://CailleauThierry.github.io/tcai_AtBSwPython/"
 
