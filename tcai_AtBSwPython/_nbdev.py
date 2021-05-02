@@ -11,6 +11,7 @@ index = {"display_fraction": "04_functions.ipynb",
 modules = ["functions.py",
            "guess_the_number.py",
            "lists.py",
+           "python_cli_arguments.py",
            "python_from_cli.py"]
 
 doc_url = "https://CailleauThierry.github.io/tcai_AtBSwPython/"
